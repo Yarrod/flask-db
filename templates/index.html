@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block content %}
+    <form method="POST">
+    {{ form.csrf_token }}
+    {{ form.region }}
+    {{ form.branch }}
+    {{ form.brand }}
+    <input type="submit">
+    </form>
+    <script>
+        var region_select = document.getElementById("region");
+        var branch_select = document.getElementById("branch");
+        var brand_select = document.getElementById("brand");
+
+    </script>
+     {% if results %}
+        {{ results }}
+    {% endif %}
+    <br>
+     {% if result_graph_url %}
+        <img src={{ result_graph_url}} alt="Chart" height="480" width="640">
+    {% endif %}
+{% endblock %}
