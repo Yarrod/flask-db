@@ -1,6 +1,6 @@
-Flask==0.10.1
-flask-wtf
-flask-sqlalchemy
-wtforms
-matplotlib
+Flask==0.12.3
+flask-wtf==0.14.2
+flask-sqlalchemy==2.4.0
+wtforms==2.2.1
+matplotlib==2.2.4
 numpy==1.13.0
