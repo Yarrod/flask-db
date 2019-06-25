@@ -1,0 +1,1 @@
+Images for plotting are saved in this folder 
