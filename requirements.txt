@@ -3,3 +3,4 @@ flask-wtf
 flask-sqlalchemy
 wtforms
 matplotlib
+numpy
