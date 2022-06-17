@@ -3,4 +3,4 @@ flask-wtf==0.14.2
 flask-sqlalchemy==2.4.0
 wtforms==2.2.1
 matplotlib==2.2.4
-numpy==1.13.0
+numpy==1.21.0
